@@ -1,12 +1,10 @@
 import Header from '../../components/Header';
-import Link from 'next/link';
+import "../../styles/globals.css";
 
-export default function about() {
+export default function About() {
     return (
         <div>
-            <Header title="About" />
-            <p>Está é a página sobre mim</p>
-            <Link href="/">Home</Link>
+            <Header title="Sobre" />
         </div>
-    )
+    );
 }
