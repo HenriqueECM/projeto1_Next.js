@@ -9,6 +9,7 @@ export default function Header({ title }) {
       <nav className="nav-links">
         <Link href="/">Home</Link>
         <Link href="/about">Sobre</Link>
+        <Link href="/projects">Projetos</Link>
         <Link href="/contact">Contato</Link>
       </nav>
     </header>

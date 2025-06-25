@@ -1,12 +1,10 @@
-import Header from '../../components/Header'
-import Link from 'next/link'
+import Header from '../../components/Header';
+import "../../styles/globals.css";
 
-export default function Project () {
+export default function Project() {
     return (
         <div>
-            <Header title="Projects"/>
-            <p>Esta é a página dos Projetos</p>
-            <Link href="/">Home</Link>
+            <Header title="Projetos" />
         </div>
     )
 }

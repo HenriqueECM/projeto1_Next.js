@@ -32,8 +32,8 @@ body {
 }
 
 .header {
-  background-color: #043d88;
-  color: white;
+  /*background-color: #030712; utilizar para modo dark */
+  color: #000000;
   text-align: center;
   padding: 20px;
   display: flex;
@@ -50,6 +50,6 @@ body {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
