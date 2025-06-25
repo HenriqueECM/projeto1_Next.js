@@ -1,12 +1,10 @@
 import Link from 'next/link';
-import '../styles/globals.css';
 
 export default function Header({ title }) {
   return (
-    // Aqui defini header fixo para as três páginas assim só vou alterar titulo do header
-    <header className="header">
-      <h1>{title}</h1>
-      <nav className="nav-links">
+    <header className="p-7 flex justify-around items-center">
+      <h1 className="text-xl font-bold">{title}</h1>
+      <nav className="flex gap-4 text-blue-900">
         <Link href="/">Home</Link>
         <Link href="/about">Sobre</Link>
         <Link href="/projects">Projetos</Link>
